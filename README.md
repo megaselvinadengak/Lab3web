@@ -30,6 +30,15 @@ dalam list. Item dibuat dengan tag <li> (list item).
 ![Membuat Ordered List 2](https://user-images.githubusercontent.com/56498195/114265150-7869ed80-9a19-11eb-8717-b8986d8e8481.PNG)
 
 # Membuat Unorderd List
+Digunakan untuk membuat daftar dimana tiap bagiannya memiliki nomor secara terurut.
+Unordered list dibuat dengan tag <ul> dan untuk item-nya dibuat juga dengan tag <li>.
+
+Secara default simbol yang digunakan oleh unordered list adalah lingkaran kecil (disc). Simbol tersebut dapat diubah sesuai dengan kebutuhannya, seperti kotak, lingkaran, atau tanpa simbol. Untuk mengubahnya dengan menambahkan atribut type pada tag ul dan berikan nilainya sesuai dengan yang diinginkan.
+• square untuk simbol persegi;
+• disc (default) untuk simbol lingkaran disc;
+• none tidak memakai simbol;
+• circle untuk simbol lingkaran;
+Selain menggunakan atribut type, dapat juga diubah dengan nilai lainnya menggunakan gambar atau icon. Untuk merubahnya menggunakan CSS dengan property list-style-image. 
 
 ![Membuat Unorderd List](https://user-images.githubusercontent.com/56498195/114265143-6f791c00-9a19-11eb-95cf-1efd7007dbc9.PNG)
 
@@ -38,6 +47,12 @@ dalam list. Item dibuat dengan tag <li> (list item).
 
 
 # Membuat Description List
+Digunakan untuk membuat daftar dimana tiap daftar tersebut memiliki penjelasan (sub-bagian).
+Ada tiga tag yang digunakan untuk membuat description list, yaitu:
+• <dl> (description list) tag untuk memulai description list;
+• <dt> (description term) tag untuk membuat kata yang akan dideskripsikan;
+• <dd> (description description) tag untuk membuat penjelasan dari kata.
+  
 ![Membuat Description List](https://user-images.githubusercontent.com/56498195/114265250-faf2ad00-9a19-11eb-829f-a081406be28a.PNG)
 
 #
@@ -45,16 +60,18 @@ dalam list. Item dibuat dengan tag <li> (list item).
 
 
 # Membuat Tabel
-![membuat tabel](https://user-images.githubusercontent.com/56498195/114265298-3e4d1b80-9a1a-11eb-90b3-417da9fb979f.PNG)
+Digunakan untuk menyajikan data dalam bentuk kolom dan baris, tujuannya agar informasi dapat 
+ditampilkan secara lebih terstruktur dan tabular.
 
-#
-![membuat table 2](https://user-images.githubusercontent.com/56498195/114265310-4b6a0a80-9a1a-11eb-95aa-1aa10177ea07.PNG)
+![membuat tabel](https://user-images.githubusercontent.com/56498195/114265298-3e4d1b80-9a1a-11eb-90b3-417da9fb979f.PNG)
 
 #
 ![membuat table](https://user-images.githubusercontent.com/56498195/114265327-68064280-9a1a-11eb-9760-1e8d7b17ef3b.PNG)
 
 
 # Menggabungkan Sel Data
+Sel data pada tabel dapat digambugkan untuk keperluan tertentu. Untuk menggabungkan sel secara vertikal menggunakan atribut rowspan dan untuk menggabungkan sel secara horizontal menggunakan atribut colspan. Atribut tersebut dapat ditambahkan pada tag td (tabel data) dengan nilai atributnya adalah jumlah sel yang akan digabungkan. 
+
 ![Menggabungkan Sel Data](https://user-images.githubusercontent.com/56498195/114265360-8ec47900-9a1a-11eb-8ce6-1f9498e92042.PNG)
 
 #
@@ -62,6 +79,23 @@ dalam list. Item dibuat dengan tag <li> (list item).
 
 
 # Membuat Form
+Form
+Web tidak hanya berfungsi untuk menampilkan informasi, namun dapat juga menerima data dari 
+pengunjungnya. Salah satu cara untuk mengambil data dari pengunjung adalah dengan 
+menggunakan form. Form pada web berlaku sama halnya dengan formulir di dunia nyata. Form 
+dapat diisi kemudian diproses dengan program tertentu, baik dari sisi server ataupun dari sisi 
+client. 
+Untuk membuat form digunakan tag <form> dengan atribut action dan method. Atribut action
+untuk menentukan aksi yang akan digunakan pada saat form dikirim. Dan method adalah untuk 
+menentukan metode yang digunakan dalam mengirimkan data.
+  
+• Atribut action dapat diisi dengan url endpoint yang akan memproses data.
+• Atribut enctype: Mendefinsikan cara encoding data sebelum dikirimkan. Biasanya digunakan jika ingin meng-upload file.
+• Atribut method: Metode pengiriman data.
+o GET: Data dikirimkan bersama URL.
+o POST: Data dikirimkan terpisah dari URL
+
+
 ![Membuat Form](https://user-images.githubusercontent.com/56498195/114265392-c29f9e80-9a1a-11eb-946a-0cf0f50618e7.PNG)
 
 #
