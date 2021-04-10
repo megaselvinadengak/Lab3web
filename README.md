@@ -109,6 +109,9 @@ o POST: Data dikirimkan terpisah dari URL
 ![Menabahkan Style pada Form 2](https://user-images.githubusercontent.com/56498195/114265431-efec4c80-9a1a-11eb-8273-9eeaade399ac.PNG)
 
 
+# Pertanyaan dan Tugas
+1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+
 
 
 
