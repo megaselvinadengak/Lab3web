@@ -125,10 +125,10 @@ o POST: Data dikirimkan terpisah dari URL
 
 
 # Listbox
-![listbox 2](https://user-images.githubusercontent.com/56498195/114412153-08a16180-9bd7-11eb-868d-2f35646eac8d.PNG)
+![listbox1](https://user-images.githubusercontent.com/56498195/114412197-122ac980-9bd7-11eb-909e-261d8665bd76.PNG)
 
 #
-![listbox1](https://user-images.githubusercontent.com/56498195/114412197-122ac980-9bd7-11eb-909e-261d8665bd76.PNG)
+![listbox 2](https://user-images.githubusercontent.com/56498195/114412153-08a16180-9bd7-11eb-868d-2f35646eac8d.PNG)
 
 
 
