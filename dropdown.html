@@ -1,0 +1,50 @@
+<title>Dropdown Menu</title>
+
+<html>
+<head>
+<style>
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<div class="dropdown">
+  <button class="mainmenubtn">Drakor Subindo</button>
+  <div class="dropdown-child">
+    <a href="http://wwww.yourdomain.com/page1.html">Vincenzo Cassano</a>
+    <a href="http://wwww.yourdomain.com/page2.html">Mr Queen</a>
+    <a href="http://wwww.yourdomain.com/page3.html">The Heirs</a>
+    <a href="http://wwww.yourdomain.com/page4.html">Mouse</a>
+    <a href="http://wwww.yourdomain.com/page5.html">18 Again</a>
+  </div>
+</div>
+</body>
+</html>
