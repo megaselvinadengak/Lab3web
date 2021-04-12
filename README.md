@@ -113,6 +113,26 @@ o POST: Data dikirimkan terpisah dari URL
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
 
+# Dropdown Menu
+![dropdown 1](https://user-images.githubusercontent.com/56498195/114411970-e4458500-9bd6-11eb-9cf3-cf5e79a27db8.PNG)
+
+#
+![dropdown 2](https://user-images.githubusercontent.com/56498195/114411994-e90a3900-9bd6-11eb-8701-5b77dc95c27f.PNG)
+
+#
+![dropdown 3](https://user-images.githubusercontent.com/56498195/114412001-ea3b6600-9bd6-11eb-90ca-23f40d45ddf2.PNG)
+
+
+
+# Listbox
+![listbox 2](https://user-images.githubusercontent.com/56498195/114412153-08a16180-9bd7-11eb-868d-2f35646eac8d.PNG)
+
+#
+![listbox1](https://user-images.githubusercontent.com/56498195/114412197-122ac980-9bd7-11eb-909e-261d8665bd76.PNG)
+
+
+
+
 
 
 
